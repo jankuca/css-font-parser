@@ -1,4 +1,4 @@
-define(function () {
+module.exports = (function () {
   /**
    * @enum {number}
    */
@@ -81,4 +81,4 @@ define(function () {
   }
 
   return parse;
-});
+}());
